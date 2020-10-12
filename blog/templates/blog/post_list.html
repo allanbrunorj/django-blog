@@ -6,9 +6,6 @@
         <div>
             <h1><a href="/">Blog do Allan</a></h1>
         </div>
-        {% for k in x%}
-        <p>{{ k }}</p>
-        {% endfor %}
         {% for post in posts %}
             <div>
                 <p>Publicado: {{ post.published_date }}</p>
